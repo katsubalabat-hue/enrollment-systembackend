@@ -135,7 +135,7 @@ elif all(
         }
     }
     DATABASE_SOURCE = "PGDATABASE/PGUSER/PGPASSWORD/PGHOST"
-elif not IS_RAILWAY and all(
+elif all(
     os.environ.get(key)
     for key in ("POSTGRES_DB", "POSTGRES_USER", "POSTGRES_PASSWORD", "POSTGRES_HOST")
 ):
@@ -152,8 +152,11 @@ elif not IS_RAILWAY and all(
     DATABASE_SOURCE = "POSTGRES_DB/POSTGRES_USER/POSTGRES_PASSWORD/POSTGRES_HOST"
 elif IS_RAILWAY:
     raise RuntimeError(
-        "Railway database is not connected to this Django service. Add this "
-        "variable to the Django/backend service: DATABASE_URL=${{ Postgres.DATABASE_URL }}"
+        "Railway database is not connected to this Django service. Add one "
+        "of these variables to the Django/backend service: "
+        "DATABASE_URL=${{ Postgres.DATABASE_URL }} or "
+        "DATABASE_PRIVATE_URL=${{ Postgres.DATABASE_PRIVATE_URL }}. "
+        "Split PG* or POSTGRES_* variables are also supported."
     )
 else:
     DATABASES = {
