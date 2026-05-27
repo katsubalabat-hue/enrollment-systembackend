@@ -100,12 +100,17 @@ WSGI_APPLICATION = 'enrollment_system.wsgi.application'
 # =====================================================
 IS_RAILWAY = bool(os.environ.get("RAILWAY_ENVIRONMENT"))
 
-DATABASE_URL = (
-    os.environ.get("DATABASE_URL")
-    or os.environ.get("DATABASE_PRIVATE_URL")
-    or os.environ.get("POSTGRES_URL")
-    or os.environ.get("POSTGRES_PRIVATE_URL")
+DATABASE_URL_ENV_KEYS = (
+    "DATABASE_URL",
+    "DATABASE_PRIVATE_URL",
+    "POSTGRES_URL",
+    "POSTGRES_PRIVATE_URL",
 )
+DATABASE_SOURCE = next(
+    (key for key in DATABASE_URL_ENV_KEYS if os.environ.get(key)),
+    None,
+)
+DATABASE_URL = os.environ.get(DATABASE_SOURCE) if DATABASE_SOURCE else None
 
 if DATABASE_URL:
     DATABASES = {
@@ -129,6 +134,7 @@ elif all(
             "PORT": os.environ.get("PGPORT", "5432"),
         }
     }
+    DATABASE_SOURCE = "PGDATABASE/PGUSER/PGPASSWORD/PGHOST"
 elif not IS_RAILWAY and all(
     os.environ.get(key)
     for key in ("POSTGRES_DB", "POSTGRES_USER", "POSTGRES_PASSWORD", "POSTGRES_HOST")
@@ -143,6 +149,7 @@ elif not IS_RAILWAY and all(
             "PORT": os.environ.get("POSTGRES_PORT", "5432"),
         }
     }
+    DATABASE_SOURCE = "POSTGRES_DB/POSTGRES_USER/POSTGRES_PASSWORD/POSTGRES_HOST"
 elif IS_RAILWAY:
     raise RuntimeError(
         "Railway database is not connected to this Django service. Add this "
@@ -155,6 +162,7 @@ else:
             conn_max_age=600,
         )
     }
+    DATABASE_SOURCE = "local fallback"
 
 # =====================================================
 # AUTH

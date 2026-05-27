@@ -17,4 +17,4 @@ COPY . .
 
 RUN python manage.py collectstatic --noinput
 
-CMD python -c "import os; os.environ.setdefault('DJANGO_SETTINGS_MODULE','enrollment_system.settings'); from django.conf import settings; db=settings.DATABASES['default']; print(f\"Database: {db.get('ENGINE')} host={db.get('HOST')} name={db.get('NAME')} user={db.get('USER')}\")" && python manage.py migrate --noinput && gunicorn enrollment_system.wsgi:application --bind 0.0.0.0:${PORT:-8000}
+CMD python -c "import os; os.environ.setdefault('DJANGO_SETTINGS_MODULE','enrollment_system.settings'); from django.conf import settings; db=settings.DATABASES['default']; print(f\"Database source={getattr(settings, 'DATABASE_SOURCE', 'unknown')} engine={db.get('ENGINE')} host={db.get('HOST')} name={db.get('NAME')} user={db.get('USER')}\")" && python manage.py migrate --noinput && gunicorn enrollment_system.wsgi:application --bind 0.0.0.0:${PORT:-8000}
