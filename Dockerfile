@@ -17,4 +17,4 @@ COPY . .
 
 RUN python manage.py collectstatic --noinput
 
-CMD python manage.py migrate && gunicorn enrollment_system.wsgi:application --bind 0.0.0.0:${PORT:-8000}
+CMD if [ -n "$RAILWAY_ENVIRONMENT" ] && [ -z "$DATABASE_URL" ] && [ -z "$DATABASE_PRIVATE_URL" ] && [ -z "$POSTGRES_URL" ] && [ -z "$PGHOST" ]; then echo "Missing Railway PostgreSQL variables. Add DATABASE_URL from your Railway PostgreSQL service to this Django service."; exit 1; fi; python manage.py migrate --noinput && gunicorn enrollment_system.wsgi:application --bind 0.0.0.0:${PORT:-8000}

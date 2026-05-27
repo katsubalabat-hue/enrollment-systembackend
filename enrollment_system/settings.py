@@ -98,15 +98,41 @@ WSGI_APPLICATION = 'enrollment_system.wsgi.application'
 # =====================================================
 # DATABASE (RAILWAY FIX)
 # =====================================================
-DATABASES = {
-    "default": dj_database_url.config(
-        default=(
-            os.environ.get("DATABASE_URL")
-            or "postgres://postgres:123@localhost:5432/enrollment_db"
-        ),
-        conn_max_age=600,
-    )
-}
+DATABASE_URL = (
+    os.environ.get("DATABASE_URL")
+    or os.environ.get("DATABASE_PRIVATE_URL")
+    or os.environ.get("POSTGRES_URL")
+)
+
+if DATABASE_URL:
+    DATABASES = {
+        "default": dj_database_url.parse(
+            DATABASE_URL,
+            conn_max_age=600,
+            ssl_require=os.environ.get("POSTGRES_SSL_REQUIRE", "false").lower() == "true",
+        )
+    }
+elif all(
+    os.environ.get(key)
+    for key in ("PGDATABASE", "PGUSER", "PGPASSWORD", "PGHOST")
+):
+    DATABASES = {
+        "default": {
+            "ENGINE": "django.db.backends.postgresql",
+            "NAME": os.environ["PGDATABASE"],
+            "USER": os.environ["PGUSER"],
+            "PASSWORD": os.environ["PGPASSWORD"],
+            "HOST": os.environ["PGHOST"],
+            "PORT": os.environ.get("PGPORT", "5432"),
+        }
+    }
+else:
+    DATABASES = {
+        "default": dj_database_url.parse(
+            "postgres://postgres:123@localhost:5432/enrollment_db",
+            conn_max_age=600,
+        )
+    }
 
 # =====================================================
 # AUTH
