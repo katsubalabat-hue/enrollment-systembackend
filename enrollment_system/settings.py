@@ -96,8 +96,10 @@ TEMPLATES = [
 WSGI_APPLICATION = 'enrollment_system.wsgi.application'
 
 # =====================================================
-# DATABASE (RAILWAY FIX)
+# DATABASE
 # =====================================================
+IS_RAILWAY = bool(os.environ.get("RAILWAY_ENVIRONMENT"))
+
 DATABASE_URL = (
     os.environ.get("DATABASE_URL")
     or os.environ.get("DATABASE_PRIVATE_URL")
@@ -127,7 +129,7 @@ elif all(
             "PORT": os.environ.get("PGPORT", "5432"),
         }
     }
-elif all(
+elif not IS_RAILWAY and all(
     os.environ.get(key)
     for key in ("POSTGRES_DB", "POSTGRES_USER", "POSTGRES_PASSWORD", "POSTGRES_HOST")
 ):
@@ -141,17 +143,11 @@ elif all(
             "PORT": os.environ.get("POSTGRES_PORT", "5432"),
         }
     }
-elif os.environ.get("RAILWAY_ENVIRONMENT"):
-    DATABASES = {
-        "default": {
-            "ENGINE": "django.db.backends.postgresql",
-            "NAME": os.environ.get("POSTGRES_DB", "enrollment_db"),
-            "USER": os.environ.get("POSTGRES_USER", "postgres"),
-            "PASSWORD": os.environ.get("POSTGRES_PASSWORD", "123"),
-            "HOST": os.environ.get("POSTGRES_HOST", "postgres.railway.internal"),
-            "PORT": os.environ.get("POSTGRES_PORT", "5432"),
-        }
-    }
+elif IS_RAILWAY:
+    raise RuntimeError(
+        "Railway database is not connected to this Django service. Add this "
+        "variable to the Django/backend service: DATABASE_URL=${{ Postgres.DATABASE_URL }}"
+    )
 else:
     DATABASES = {
         "default": dj_database_url.parse(
