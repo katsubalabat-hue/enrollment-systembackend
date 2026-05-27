@@ -100,7 +100,11 @@ WSGI_APPLICATION = 'enrollment_system.wsgi.application'
 # =====================================================
 DATABASES = {
     "default": dj_database_url.config(
-        default=os.environ.get("DATABASE_URL")
+        default=(
+            os.environ.get("DATABASE_URL")
+            or "postgres://postgres:123@localhost:5432/enrollment_db"
+        ),
+        conn_max_age=600,
     )
 }
 
