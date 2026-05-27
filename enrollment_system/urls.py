@@ -3,6 +3,7 @@ URL configuration for enrollment_system project
 """
 
 from django.contrib import admin
+from django.http import JsonResponse
 from django.urls import path, include
 
 from django.conf import settings
@@ -44,10 +45,23 @@ router.register(r'subjects', SubjectViewSet, basename='subjects')
 router.register(r'sections', SectionViewSet, basename='sections')
 
 
+def health_check(request):
+    return JsonResponse({
+        "status": "ok",
+        "service": "student-enrollment-api",
+    })
+
+
 # =========================================================
 # URL PATTERNS
 # =========================================================
 urlpatterns = [
+
+    # =====================================================
+    # HEALTH / ROOT
+    # =====================================================
+    path('', health_check, name='root'),
+    path('healthz/', health_check, name='health-check'),
 
     # =====================================================
     # ADMIN
