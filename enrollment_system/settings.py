@@ -102,6 +102,7 @@ DATABASE_URL = (
     os.environ.get("DATABASE_URL")
     or os.environ.get("DATABASE_PRIVATE_URL")
     or os.environ.get("POSTGRES_URL")
+    or os.environ.get("POSTGRES_PRIVATE_URL")
 )
 
 if DATABASE_URL:
