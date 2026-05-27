@@ -1,0 +1,3062 @@
+[
+{
+  "model": "core.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$26LgrtSpRLBrAyLNO5FiDY$qkYfsQiVugKkYPMF7GQA1AKvhxPizZS2bYD0qNi8vgI=",
+    "last_login": "2026-05-25T15:09:21.561Z",
+    "is_superuser": true,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-05-19T17:40:07.652Z",
+    "email": "admin@gmail.com",
+    "activation_code": "",
+    "activation_code_expires_at": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$o9TRm6Yn5dKcmo8dfHcSJT$uzzXZFL3k5txkSjj/ieQGostvLbC8UmtCYx9B2CnuzY=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-20T15:26:06.952Z",
+    "email": "katsubalabat@gmail.com",
+    "activation_code": "",
+    "activation_code_expires_at": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$PzmftDmLttY0QvrgjGKSRW$JU9A49x93o17jyv8d8TwuOI1zwCJM8aUiWQcWHKOGIo=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-20T16:20:14.685Z",
+    "email": "jave@gmail.com",
+    "activation_code": "",
+    "activation_code_expires_at": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$GHmpLLg6fMZKMYMwUqQkSX$ItYDfI2w4RI9BFcv0sL9TUhBpX25JA/HBTD5MaJpWeM=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-20T16:42:01.785Z",
+    "email": "balabat@gmail.com",
+    "activation_code": "",
+    "activation_code_expires_at": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$pr8rdgE5IoimtrzchBg2G2$2BflDORWJ1VCT+b3a8mAZ9Y8j1q/yMe2t4kyiF/cNPM=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-20T16:46:13.223Z",
+    "email": "ambot@gmail.com",
+    "activation_code": "",
+    "activation_code_expires_at": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$MpWWeMyUDJRmnvIt3OSfso$wPfdo1sf+QPm2N8Fj+JbCRTJ5WHoHMVRJnVoywqe/1s=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-21T02:19:13.620Z",
+    "email": "brent@gmail.com",
+    "activation_code": "",
+    "activation_code_expires_at": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$pUordhXK9JY273j24KaxYt$1zo/R15be5vuLF0BvEu8mJEmHno7kqThW69EhQ/tH88=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-21T02:35:21.992Z",
+    "email": "christian@gmail.com",
+    "activation_code": "",
+    "activation_code_expires_at": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$VoYmx8UEv9pxAsI19zf16q$I/A6NuU/i+zwlmS+uxbcUinMMsHxEmlOX+bbGePqwWM=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-22T14:23:26.926Z",
+    "email": "rheanbalabat@gmail.com",
+    "activation_code": "",
+    "activation_code_expires_at": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 1,
+  "fields": {
+    "subject_code": "IT101",
+    "subject_name": "Introduction to Computing",
+    "description": "",
+    "units": 3,
+    "course": "Information Technology",
+    "year_level": "1st Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 2,
+  "fields": {
+    "subject_code": "IT102",
+    "subject_name": "Computer Programming 1",
+    "description": "",
+    "units": 3,
+    "course": "Information Technology",
+    "year_level": "1st Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 3,
+  "fields": {
+    "subject_code": "IT103",
+    "subject_name": "Computer Programming 2",
+    "description": "",
+    "units": 3,
+    "course": "Information Technology",
+    "year_level": "1st Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 4,
+  "fields": {
+    "subject_code": "IT104",
+    "subject_name": "Discrete Mathematics",
+    "description": "",
+    "units": 3,
+    "course": "Information Technology",
+    "year_level": "1st Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 5,
+  "fields": {
+    "subject_code": "IT201",
+    "subject_name": "Data Structures and Algorithms",
+    "description": "",
+    "units": 3,
+    "course": "Information Technology",
+    "year_level": "2nd Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 6,
+  "fields": {
+    "subject_code": "IT202",
+    "subject_name": "Human Computer Interaction",
+    "description": "",
+    "units": 3,
+    "course": "Information Technology",
+    "year_level": "2nd Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 7,
+  "fields": {
+    "subject_code": "IT203",
+    "subject_name": "Networking 1",
+    "description": "",
+    "units": 3,
+    "course": "Information Technology",
+    "year_level": "2nd Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 8,
+  "fields": {
+    "subject_code": "IT204",
+    "subject_name": "Information Management",
+    "description": "",
+    "units": 3,
+    "course": "Information Technology",
+    "year_level": "2nd Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 9,
+  "fields": {
+    "subject_code": "IT205",
+    "subject_name": "Object-Oriented Programming",
+    "description": "",
+    "units": 3,
+    "course": "Information Technology",
+    "year_level": "2nd Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 10,
+  "fields": {
+    "subject_code": "IT206",
+    "subject_name": "Networking 2",
+    "description": "",
+    "units": 3,
+    "course": "Information Technology",
+    "year_level": "2nd Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 11,
+  "fields": {
+    "subject_code": "IT301",
+    "subject_name": "Web Systems and Technologies",
+    "description": "",
+    "units": 3,
+    "course": "Information Technology",
+    "year_level": "3rd Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 12,
+  "fields": {
+    "subject_code": "IT302",
+    "subject_name": "Systems Integration and Architecture",
+    "description": "",
+    "units": 3,
+    "course": "Information Technology",
+    "year_level": "3rd Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 13,
+  "fields": {
+    "subject_code": "IT303",
+    "subject_name": "Software Engineering",
+    "description": "",
+    "units": 3,
+    "course": "Information Technology",
+    "year_level": "3rd Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 14,
+  "fields": {
+    "subject_code": "IT304",
+    "subject_name": "Mobile Application Development",
+    "description": "",
+    "units": 3,
+    "course": "Information Technology",
+    "year_level": "3rd Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 15,
+  "fields": {
+    "subject_code": "IT305",
+    "subject_name": "Information Assurance and Security",
+    "description": "",
+    "units": 3,
+    "course": "Information Technology",
+    "year_level": "3rd Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 16,
+  "fields": {
+    "subject_code": "IT306",
+    "subject_name": "IT Project Management",
+    "description": "",
+    "units": 3,
+    "course": "Information Technology",
+    "year_level": "3rd Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 17,
+  "fields": {
+    "subject_code": "IT401",
+    "subject_name": "Capstone Project 1",
+    "description": "",
+    "units": 3,
+    "course": "Information Technology",
+    "year_level": "4th Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 18,
+  "fields": {
+    "subject_code": "IT402",
+    "subject_name": "Professional Elective 1",
+    "description": "",
+    "units": 3,
+    "course": "Information Technology",
+    "year_level": "4th Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 19,
+  "fields": {
+    "subject_code": "IT403",
+    "subject_name": "Systems Administration",
+    "description": "",
+    "units": 3,
+    "course": "Information Technology",
+    "year_level": "4th Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 20,
+  "fields": {
+    "subject_code": "IT404",
+    "subject_name": "Capstone Project 2",
+    "description": "",
+    "units": 3,
+    "course": "Information Technology",
+    "year_level": "4th Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 21,
+  "fields": {
+    "subject_code": "IT405",
+    "subject_name": "Practicum",
+    "description": "",
+    "units": 6,
+    "course": "Information Technology",
+    "year_level": "4th Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 22,
+  "fields": {
+    "subject_code": "IT406",
+    "subject_name": "Professional Elective 2",
+    "description": "",
+    "units": 3,
+    "course": "Information Technology",
+    "year_level": "4th Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 23,
+  "fields": {
+    "subject_code": "CS101",
+    "subject_name": "Introduction to Computing",
+    "description": "",
+    "units": 3,
+    "course": "Computer Science",
+    "year_level": "1st Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 24,
+  "fields": {
+    "subject_code": "CS102",
+    "subject_name": "Computer Programming 1",
+    "description": "",
+    "units": 3,
+    "course": "Computer Science",
+    "year_level": "1st Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 25,
+  "fields": {
+    "subject_code": "CS103",
+    "subject_name": "Computer Programming 2",
+    "description": "",
+    "units": 3,
+    "course": "Computer Science",
+    "year_level": "1st Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 26,
+  "fields": {
+    "subject_code": "CS104",
+    "subject_name": "Discrete Structures 1",
+    "description": "",
+    "units": 3,
+    "course": "Computer Science",
+    "year_level": "1st Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 27,
+  "fields": {
+    "subject_code": "CS201",
+    "subject_name": "Data Structures and Algorithms",
+    "description": "",
+    "units": 3,
+    "course": "Computer Science",
+    "year_level": "2nd Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 28,
+  "fields": {
+    "subject_code": "CS202",
+    "subject_name": "Computer Organization",
+    "description": "",
+    "units": 3,
+    "course": "Computer Science",
+    "year_level": "2nd Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 29,
+  "fields": {
+    "subject_code": "CS203",
+    "subject_name": "Discrete Structures 2",
+    "description": "",
+    "units": 3,
+    "course": "Computer Science",
+    "year_level": "2nd Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 30,
+  "fields": {
+    "subject_code": "CS204",
+    "subject_name": "Design and Analysis of Algorithms",
+    "description": "",
+    "units": 3,
+    "course": "Computer Science",
+    "year_level": "2nd Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 31,
+  "fields": {
+    "subject_code": "CS205",
+    "subject_name": "Operating Systems",
+    "description": "",
+    "units": 3,
+    "course": "Computer Science",
+    "year_level": "2nd Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 32,
+  "fields": {
+    "subject_code": "CS206",
+    "subject_name": "Automata Theory",
+    "description": "",
+    "units": 3,
+    "course": "Computer Science",
+    "year_level": "2nd Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 33,
+  "fields": {
+    "subject_code": "CS301",
+    "subject_name": "Software Engineering 1",
+    "description": "",
+    "units": 3,
+    "course": "Computer Science",
+    "year_level": "3rd Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 34,
+  "fields": {
+    "subject_code": "CS302",
+    "subject_name": "Database Systems",
+    "description": "",
+    "units": 3,
+    "course": "Computer Science",
+    "year_level": "3rd Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 35,
+  "fields": {
+    "subject_code": "CS303",
+    "subject_name": "Programming Languages",
+    "description": "",
+    "units": 3,
+    "course": "Computer Science",
+    "year_level": "3rd Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 36,
+  "fields": {
+    "subject_code": "CS304",
+    "subject_name": "Software Engineering 2",
+    "description": "",
+    "units": 3,
+    "course": "Computer Science",
+    "year_level": "3rd Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 37,
+  "fields": {
+    "subject_code": "CS305",
+    "subject_name": "Artificial Intelligence",
+    "description": "",
+    "units": 3,
+    "course": "Computer Science",
+    "year_level": "3rd Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 38,
+  "fields": {
+    "subject_code": "CS306",
+    "subject_name": "Computer Networks",
+    "description": "",
+    "units": 3,
+    "course": "Computer Science",
+    "year_level": "3rd Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 39,
+  "fields": {
+    "subject_code": "CS401",
+    "subject_name": "Thesis 1",
+    "description": "",
+    "units": 3,
+    "course": "Computer Science",
+    "year_level": "4th Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 40,
+  "fields": {
+    "subject_code": "CS402",
+    "subject_name": "CS Elective 1",
+    "description": "",
+    "units": 3,
+    "course": "Computer Science",
+    "year_level": "4th Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 41,
+  "fields": {
+    "subject_code": "CS403",
+    "subject_name": "Information Assurance and Security",
+    "description": "",
+    "units": 3,
+    "course": "Computer Science",
+    "year_level": "4th Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 42,
+  "fields": {
+    "subject_code": "CS404",
+    "subject_name": "Thesis 2",
+    "description": "",
+    "units": 3,
+    "course": "Computer Science",
+    "year_level": "4th Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 43,
+  "fields": {
+    "subject_code": "CS405",
+    "subject_name": "Practicum",
+    "description": "",
+    "units": 6,
+    "course": "Computer Science",
+    "year_level": "4th Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 44,
+  "fields": {
+    "subject_code": "CS406",
+    "subject_name": "CS Elective 2",
+    "description": "",
+    "units": 3,
+    "course": "Computer Science",
+    "year_level": "4th Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 45,
+  "fields": {
+    "subject_code": "TCM101",
+    "subject_name": "Introduction to Technology Communication",
+    "description": "",
+    "units": 3,
+    "course": "Technology Communication Management",
+    "year_level": "1st Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 46,
+  "fields": {
+    "subject_code": "TCM102",
+    "subject_name": "Digital Literacy",
+    "description": "",
+    "units": 3,
+    "course": "Technology Communication Management",
+    "year_level": "1st Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 47,
+  "fields": {
+    "subject_code": "TCM103",
+    "subject_name": "Technical Writing",
+    "description": "",
+    "units": 3,
+    "course": "Technology Communication Management",
+    "year_level": "1st Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 48,
+  "fields": {
+    "subject_code": "TCM104",
+    "subject_name": "Communication Theory",
+    "description": "",
+    "units": 3,
+    "course": "Technology Communication Management",
+    "year_level": "1st Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 49,
+  "fields": {
+    "subject_code": "TCM201",
+    "subject_name": "Multimedia Production",
+    "description": "",
+    "units": 3,
+    "course": "Technology Communication Management",
+    "year_level": "2nd Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 50,
+  "fields": {
+    "subject_code": "TCM202",
+    "subject_name": "Visual Communication",
+    "description": "",
+    "units": 3,
+    "course": "Technology Communication Management",
+    "year_level": "2nd Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 51,
+  "fields": {
+    "subject_code": "TCM203",
+    "subject_name": "Media Ethics",
+    "description": "",
+    "units": 3,
+    "course": "Technology Communication Management",
+    "year_level": "2nd Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 52,
+  "fields": {
+    "subject_code": "TCM204",
+    "subject_name": "Web Content Management",
+    "description": "",
+    "units": 3,
+    "course": "Technology Communication Management",
+    "year_level": "2nd Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 53,
+  "fields": {
+    "subject_code": "TCM205",
+    "subject_name": "Digital Marketing",
+    "description": "",
+    "units": 3,
+    "course": "Technology Communication Management",
+    "year_level": "2nd Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 54,
+  "fields": {
+    "subject_code": "TCM206",
+    "subject_name": "Research Methods",
+    "description": "",
+    "units": 3,
+    "course": "Technology Communication Management",
+    "year_level": "2nd Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 55,
+  "fields": {
+    "subject_code": "TCM301",
+    "subject_name": "Project Management",
+    "description": "",
+    "units": 3,
+    "course": "Technology Communication Management",
+    "year_level": "3rd Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 56,
+  "fields": {
+    "subject_code": "TCM302",
+    "subject_name": "Instructional Media Design",
+    "description": "",
+    "units": 3,
+    "course": "Technology Communication Management",
+    "year_level": "3rd Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 57,
+  "fields": {
+    "subject_code": "TCM303",
+    "subject_name": "Communication Campaigns",
+    "description": "",
+    "units": 3,
+    "course": "Technology Communication Management",
+    "year_level": "3rd Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 58,
+  "fields": {
+    "subject_code": "TCM304",
+    "subject_name": "Enterprise Communication Systems",
+    "description": "",
+    "units": 3,
+    "course": "Technology Communication Management",
+    "year_level": "3rd Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 59,
+  "fields": {
+    "subject_code": "TCM305",
+    "subject_name": "Data Visualization",
+    "description": "",
+    "units": 3,
+    "course": "Technology Communication Management",
+    "year_level": "3rd Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 60,
+  "fields": {
+    "subject_code": "TCM306",
+    "subject_name": "Professional Communication",
+    "description": "",
+    "units": 3,
+    "course": "Technology Communication Management",
+    "year_level": "3rd Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 61,
+  "fields": {
+    "subject_code": "TCM401",
+    "subject_name": "Capstone Project 1",
+    "description": "",
+    "units": 3,
+    "course": "Technology Communication Management",
+    "year_level": "4th Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 62,
+  "fields": {
+    "subject_code": "TCM402",
+    "subject_name": "TCM Elective 1",
+    "description": "",
+    "units": 3,
+    "course": "Technology Communication Management",
+    "year_level": "4th Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 63,
+  "fields": {
+    "subject_code": "TCM403",
+    "subject_name": "Seminar in Technology Communication",
+    "description": "",
+    "units": 3,
+    "course": "Technology Communication Management",
+    "year_level": "4th Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 64,
+  "fields": {
+    "subject_code": "TCM404",
+    "subject_name": "Capstone Project 2",
+    "description": "",
+    "units": 3,
+    "course": "Technology Communication Management",
+    "year_level": "4th Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 65,
+  "fields": {
+    "subject_code": "TCM405",
+    "subject_name": "Practicum",
+    "description": "",
+    "units": 6,
+    "course": "Technology Communication Management",
+    "year_level": "4th Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 66,
+  "fields": {
+    "subject_code": "TCM406",
+    "subject_name": "TCM Elective 2",
+    "description": "",
+    "units": 3,
+    "course": "Technology Communication Management",
+    "year_level": "4th Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 67,
+  "fields": {
+    "subject_code": "GE101",
+    "subject_name": "Purposive Communication",
+    "description": "",
+    "units": 3,
+    "course": "GENERAL",
+    "year_level": "1st Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 68,
+  "fields": {
+    "subject_code": "GE102",
+    "subject_name": "Mathematics in the Modern World",
+    "description": "",
+    "units": 3,
+    "course": "GENERAL",
+    "year_level": "1st Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 69,
+  "fields": {
+    "subject_code": "PE101",
+    "subject_name": "Physical Education 1",
+    "description": "",
+    "units": 2,
+    "course": "GENERAL",
+    "year_level": "1st Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 70,
+  "fields": {
+    "subject_code": "NSTP101",
+    "subject_name": "NSTP 1",
+    "description": "",
+    "units": 3,
+    "course": "GENERAL",
+    "year_level": "1st Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 71,
+  "fields": {
+    "subject_code": "GE103",
+    "subject_name": "Understanding the Self",
+    "description": "",
+    "units": 3,
+    "course": "GENERAL",
+    "year_level": "1st Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 72,
+  "fields": {
+    "subject_code": "GE104",
+    "subject_name": "Readings in Philippine History",
+    "description": "",
+    "units": 3,
+    "course": "GENERAL",
+    "year_level": "1st Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 73,
+  "fields": {
+    "subject_code": "PE102",
+    "subject_name": "Physical Education 2",
+    "description": "",
+    "units": 2,
+    "course": "GENERAL",
+    "year_level": "1st Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 74,
+  "fields": {
+    "subject_code": "NSTP102",
+    "subject_name": "NSTP 2",
+    "description": "",
+    "units": 3,
+    "course": "GENERAL",
+    "year_level": "1st Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 75,
+  "fields": {
+    "subject_code": "GE105",
+    "subject_name": "Art Appreciation",
+    "description": "",
+    "units": 3,
+    "course": "GENERAL",
+    "year_level": "2nd Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 76,
+  "fields": {
+    "subject_code": "GE106",
+    "subject_name": "Science, Technology, and Society",
+    "description": "",
+    "units": 3,
+    "course": "GENERAL",
+    "year_level": "2nd Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 77,
+  "fields": {
+    "subject_code": "PE103",
+    "subject_name": "Physical Education 3",
+    "description": "",
+    "units": 2,
+    "course": "GENERAL",
+    "year_level": "2nd Year",
+    "semester": "1st Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 78,
+  "fields": {
+    "subject_code": "GE107",
+    "subject_name": "Ethics",
+    "description": "",
+    "units": 3,
+    "course": "GENERAL",
+    "year_level": "2nd Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 79,
+  "fields": {
+    "subject_code": "GE108",
+    "subject_name": "The Contemporary World",
+    "description": "",
+    "units": 3,
+    "course": "GENERAL",
+    "year_level": "2nd Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.subject",
+  "pk": 80,
+  "fields": {
+    "subject_code": "PE104",
+    "subject_name": "Physical Education 4",
+    "description": "",
+    "units": 2,
+    "course": "GENERAL",
+    "year_level": "2nd Year",
+    "semester": "2nd Sem",
+    "created_at": "2026-05-20T15:18:03Z",
+    "updated_at": "2026-05-20T15:18:03Z"
+  }
+},
+{
+  "model": "core.student",
+  "pk": 3,
+  "fields": {
+    "user": [
+      "admin@gmail.com"
+    ],
+    "first_name": "",
+    "middle_name": "",
+    "last_name": "",
+    "email": "admin@gmail.com",
+    "student_number": null,
+    "parent_name": "",
+    "contact_number": "",
+    "home_address": "",
+    "birthday": null,
+    "course": "",
+    "year_level": "",
+    "semester": null,
+    "profile_picture": "",
+    "enrolled_date": "2026-05-20",
+    "max_units": 50,
+    "is_active": true,
+    "created_at": "2026-05-19T17:40:08.735Z",
+    "updated_at": "2026-05-25T15:09:21.568Z"
+  }
+},
+{
+  "model": "core.student",
+  "pk": 19,
+  "fields": {
+    "user": [
+      "katsubalabat@gmail.com"
+    ],
+    "first_name": "nathaniel",
+    "middle_name": "betonio",
+    "last_name": "balingkit",
+    "email": "katsubalabat@gmail.com",
+    "student_number": "09061069503",
+    "parent_name": "junaid pagari",
+    "contact_number": "09061069503",
+    "home_address": "bulua",
+    "birthday": "2001-05-20",
+    "course": "Information Technology",
+    "year_level": "1st Year",
+    "semester": "2nd Sem",
+    "profile_picture": "profile_pictures/profile_5KoNinf.jpg",
+    "enrolled_date": "2026-05-20",
+    "max_units": 50,
+    "is_active": true,
+    "created_at": "2026-05-20T15:26:08.248Z",
+    "updated_at": "2026-05-21T02:14:58.176Z"
+  }
+},
+{
+  "model": "core.student",
+  "pk": 20,
+  "fields": {
+    "user": [
+      "jave@gmail.com"
+    ],
+    "first_name": "",
+    "middle_name": "balabat",
+    "last_name": "",
+    "email": "jave@gmail.com",
+    "student_number": "01061069502",
+    "parent_name": "lina",
+    "contact_number": "01061069502",
+    "home_address": "balabat",
+    "birthday": "2003-05-21",
+    "course": "Computer Science",
+    "year_level": "2nd Year",
+    "semester": "1st Sem",
+    "profile_picture": "profile_pictures/profile_CUm4koa.jpg",
+    "enrolled_date": "2026-05-21",
+    "max_units": 50,
+    "is_active": false,
+    "created_at": "2026-05-20T16:20:15.916Z",
+    "updated_at": "2026-05-25T15:10:09.041Z"
+  }
+},
+{
+  "model": "core.student",
+  "pk": 21,
+  "fields": {
+    "user": [
+      "balabat@gmail.com"
+    ],
+    "first_name": "jave",
+    "middle_name": "balabat",
+    "last_name": "sumatra",
+    "email": "balabat@gmail.com",
+    "student_number": "09061069102",
+    "parent_name": "Jamovi",
+    "contact_number": "09061069102",
+    "home_address": "Bulua",
+    "birthday": "2004-09-10",
+    "course": "Information Technology",
+    "year_level": "3rd Year",
+    "semester": "2nd Sem",
+    "profile_picture": "",
+    "enrolled_date": "2026-05-21",
+    "max_units": 50,
+    "is_active": true,
+    "created_at": "2026-05-20T16:42:02.915Z",
+    "updated_at": "2026-05-21T02:14:37.536Z"
+  }
+},
+{
+  "model": "core.student",
+  "pk": 22,
+  "fields": {
+    "user": [
+      "ambot@gmail.com"
+    ],
+    "first_name": "bryan",
+    "middle_name": "balabat",
+    "last_name": "apal",
+    "email": "ambot@gmail.com",
+    "student_number": "09011065503",
+    "parent_name": "jave bbayot",
+    "contact_number": "09041065503",
+    "home_address": "bilua",
+    "birthday": "2004-05-21",
+    "course": "Information Technology",
+    "year_level": "2nd Year",
+    "semester": "2nd Sem",
+    "profile_picture": "profile_pictures/profile_uphuMf4.jpg",
+    "enrolled_date": "2026-05-21",
+    "max_units": 50,
+    "is_active": true,
+    "created_at": "2026-05-20T16:46:14.389Z",
+    "updated_at": "2026-05-21T02:15:23.334Z"
+  }
+},
+{
+  "model": "core.student",
+  "pk": 23,
+  "fields": {
+    "user": [
+      "brent@gmail.com"
+    ],
+    "first_name": "brent",
+    "middle_name": "balabat",
+    "last_name": "benigay",
+    "email": "brent@gmail.com",
+    "student_number": "09061065503",
+    "parent_name": "jave sumatra",
+    "contact_number": "09041035503",
+    "home_address": "BULUA CDO",
+    "birthday": "2004-05-21",
+    "course": "Information Technology",
+    "year_level": "4th Year",
+    "semester": "1st Sem",
+    "profile_picture": "",
+    "enrolled_date": "2026-05-21",
+    "max_units": 50,
+    "is_active": true,
+    "created_at": "2026-05-21T02:19:14.917Z",
+    "updated_at": "2026-05-21T02:19:14.917Z"
+  }
+},
+{
+  "model": "core.student",
+  "pk": 24,
+  "fields": {
+    "user": [
+      "christian@gmail.com"
+    ],
+    "first_name": "christian",
+    "middle_name": "benigay",
+    "last_name": "songalia",
+    "email": "christian@gmail.com",
+    "student_number": "111111111",
+    "parent_name": "rhean balabat",
+    "contact_number": "09061069503",
+    "home_address": "bulua cdo",
+    "birthday": "2003-03-08",
+    "course": "Information Technology",
+    "year_level": "1st Year",
+    "semester": "1st Sem",
+    "profile_picture": "profile_pictures/profile_2bmzORS.jpg",
+    "enrolled_date": "2026-05-21",
+    "max_units": 50,
+    "is_active": true,
+    "created_at": "2026-05-21T02:35:23.283Z",
+    "updated_at": "2026-05-21T02:35:38.513Z"
+  }
+},
+{
+  "model": "core.student",
+  "pk": 26,
+  "fields": {
+    "user": [
+      "rheanbalabat@gmail.com"
+    ],
+    "first_name": "",
+    "middle_name": "andhre",
+    "last_name": "",
+    "email": "rheanbalabat@gmail.com",
+    "student_number": "0955593448",
+    "parent_name": "jave sumatra",
+    "contact_number": "0955593448",
+    "home_address": "bulua cdo",
+    "birthday": "2004-05-22",
+    "course": "Information Technology",
+    "year_level": "1st Year",
+    "semester": "1st Sem",
+    "profile_picture": "profile_pictures/profile_bF0kukQ.jpg",
+    "enrolled_date": "2026-05-22",
+    "max_units": 50,
+    "is_active": true,
+    "created_at": "2026-05-22T14:23:28.127Z",
+    "updated_at": "2026-05-24T23:32:51.115Z"
+  }
+},
+{
+  "model": "core.section",
+  "pk": 1,
+  "fields": {
+    "subject": 23,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 2,
+  "fields": {
+    "subject": 24,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 3,
+  "fields": {
+    "subject": 25,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 4,
+  "fields": {
+    "subject": 26,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 5,
+  "fields": {
+    "subject": 27,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 1,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 6,
+  "fields": {
+    "subject": 28,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 1,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 7,
+  "fields": {
+    "subject": 29,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 1,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 8,
+  "fields": {
+    "subject": 30,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 9,
+  "fields": {
+    "subject": 31,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 10,
+  "fields": {
+    "subject": 32,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 11,
+  "fields": {
+    "subject": 33,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 12,
+  "fields": {
+    "subject": 34,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 13,
+  "fields": {
+    "subject": 35,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 14,
+  "fields": {
+    "subject": 36,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 15,
+  "fields": {
+    "subject": 37,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 16,
+  "fields": {
+    "subject": 38,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 17,
+  "fields": {
+    "subject": 39,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 18,
+  "fields": {
+    "subject": 40,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 19,
+  "fields": {
+    "subject": 41,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 20,
+  "fields": {
+    "subject": 42,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 21,
+  "fields": {
+    "subject": 43,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 22,
+  "fields": {
+    "subject": 44,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 23,
+  "fields": {
+    "subject": 67,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 4,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 24,
+  "fields": {
+    "subject": 68,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 4,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 25,
+  "fields": {
+    "subject": 71,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 1,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 26,
+  "fields": {
+    "subject": 72,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 1,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 27,
+  "fields": {
+    "subject": 75,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 1,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 28,
+  "fields": {
+    "subject": 76,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 1,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 29,
+  "fields": {
+    "subject": 78,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 1,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 30,
+  "fields": {
+    "subject": 79,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 1,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 31,
+  "fields": {
+    "subject": 1,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 4,
+    "room": "903",
+    "schedule": "Thursday"
+  }
+},
+{
+  "model": "core.section",
+  "pk": 32,
+  "fields": {
+    "subject": 2,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 4,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 33,
+  "fields": {
+    "subject": 3,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 1,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 34,
+  "fields": {
+    "subject": 4,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 1,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 35,
+  "fields": {
+    "subject": 5,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 36,
+  "fields": {
+    "subject": 6,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 37,
+  "fields": {
+    "subject": 7,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 38,
+  "fields": {
+    "subject": 8,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 1,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 39,
+  "fields": {
+    "subject": 9,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 1,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 40,
+  "fields": {
+    "subject": 10,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 1,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 41,
+  "fields": {
+    "subject": 11,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 42,
+  "fields": {
+    "subject": 12,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 43,
+  "fields": {
+    "subject": 13,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 44,
+  "fields": {
+    "subject": 14,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 1,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 45,
+  "fields": {
+    "subject": 15,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 1,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 46,
+  "fields": {
+    "subject": 16,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 1,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 47,
+  "fields": {
+    "subject": 17,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 1,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 48,
+  "fields": {
+    "subject": 18,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 1,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 49,
+  "fields": {
+    "subject": 19,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 1,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 50,
+  "fields": {
+    "subject": 20,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 51,
+  "fields": {
+    "subject": 21,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 52,
+  "fields": {
+    "subject": 22,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 53,
+  "fields": {
+    "subject": 70,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 4,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 54,
+  "fields": {
+    "subject": 74,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 1,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 55,
+  "fields": {
+    "subject": 69,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 4,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 56,
+  "fields": {
+    "subject": 73,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 1,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 57,
+  "fields": {
+    "subject": 77,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 1,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 58,
+  "fields": {
+    "subject": 80,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 1,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 59,
+  "fields": {
+    "subject": 45,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 60,
+  "fields": {
+    "subject": 46,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 61,
+  "fields": {
+    "subject": 47,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 62,
+  "fields": {
+    "subject": 48,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 63,
+  "fields": {
+    "subject": 49,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 64,
+  "fields": {
+    "subject": 50,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 65,
+  "fields": {
+    "subject": 51,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 66,
+  "fields": {
+    "subject": 52,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 67,
+  "fields": {
+    "subject": 53,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 68,
+  "fields": {
+    "subject": 54,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 69,
+  "fields": {
+    "subject": 55,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 70,
+  "fields": {
+    "subject": 56,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 71,
+  "fields": {
+    "subject": 57,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 72,
+  "fields": {
+    "subject": 58,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 73,
+  "fields": {
+    "subject": 59,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 74,
+  "fields": {
+    "subject": 60,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 75,
+  "fields": {
+    "subject": 61,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 76,
+  "fields": {
+    "subject": 62,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 77,
+  "fields": {
+    "subject": 63,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 78,
+  "fields": {
+    "subject": 64,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 79,
+  "fields": {
+    "subject": 65,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.section",
+  "pk": 80,
+  "fields": {
+    "subject": 66,
+    "section_name": "A",
+    "max_capacity": 40,
+    "current_count": 0,
+    "room": "",
+    "schedule": ""
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 25,
+  "fields": {
+    "student": 19,
+    "subject": 71,
+    "section": 25,
+    "semester": "2nd Sem",
+    "enrollment_date": "2026-05-20T15:26:08.258Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-20T15:26:08.258Z",
+    "updated_at": "2026-05-20T15:26:08.258Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 26,
+  "fields": {
+    "student": 19,
+    "subject": 72,
+    "section": 26,
+    "semester": "2nd Sem",
+    "enrollment_date": "2026-05-20T15:26:08.265Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-20T15:26:08.265Z",
+    "updated_at": "2026-05-20T15:26:08.265Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 27,
+  "fields": {
+    "student": 19,
+    "subject": 3,
+    "section": 33,
+    "semester": "2nd Sem",
+    "enrollment_date": "2026-05-20T15:26:08.271Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-20T15:26:08.271Z",
+    "updated_at": "2026-05-20T15:26:08.271Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 28,
+  "fields": {
+    "student": 19,
+    "subject": 4,
+    "section": 34,
+    "semester": "2nd Sem",
+    "enrollment_date": "2026-05-20T15:26:08.277Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-20T15:26:08.277Z",
+    "updated_at": "2026-05-20T15:26:08.277Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 29,
+  "fields": {
+    "student": 19,
+    "subject": 74,
+    "section": 54,
+    "semester": "2nd Sem",
+    "enrollment_date": "2026-05-20T15:26:08.284Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-20T15:26:08.284Z",
+    "updated_at": "2026-05-20T15:26:08.284Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 30,
+  "fields": {
+    "student": 19,
+    "subject": 73,
+    "section": 56,
+    "semester": "2nd Sem",
+    "enrollment_date": "2026-05-20T15:26:08.292Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-20T15:26:08.292Z",
+    "updated_at": "2026-05-20T15:26:08.292Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 31,
+  "fields": {
+    "student": 20,
+    "subject": 27,
+    "section": 5,
+    "semester": "1st Sem",
+    "enrollment_date": "2026-05-20T16:20:15.925Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-20T16:20:15.925Z",
+    "updated_at": "2026-05-20T16:20:15.925Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 32,
+  "fields": {
+    "student": 20,
+    "subject": 28,
+    "section": 6,
+    "semester": "1st Sem",
+    "enrollment_date": "2026-05-20T16:20:15.933Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-20T16:20:15.933Z",
+    "updated_at": "2026-05-20T16:20:15.933Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 33,
+  "fields": {
+    "student": 20,
+    "subject": 29,
+    "section": 7,
+    "semester": "1st Sem",
+    "enrollment_date": "2026-05-20T16:20:15.938Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-20T16:20:15.938Z",
+    "updated_at": "2026-05-20T16:20:15.938Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 34,
+  "fields": {
+    "student": 20,
+    "subject": 75,
+    "section": 27,
+    "semester": "1st Sem",
+    "enrollment_date": "2026-05-20T16:20:15.945Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-20T16:20:15.945Z",
+    "updated_at": "2026-05-20T16:20:15.945Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 35,
+  "fields": {
+    "student": 20,
+    "subject": 76,
+    "section": 28,
+    "semester": "1st Sem",
+    "enrollment_date": "2026-05-20T16:20:15.953Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-20T16:20:15.953Z",
+    "updated_at": "2026-05-20T16:20:15.953Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 36,
+  "fields": {
+    "student": 20,
+    "subject": 77,
+    "section": 57,
+    "semester": "1st Sem",
+    "enrollment_date": "2026-05-20T16:20:15.958Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-20T16:20:15.958Z",
+    "updated_at": "2026-05-20T16:20:15.958Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 37,
+  "fields": {
+    "student": 21,
+    "subject": 14,
+    "section": 44,
+    "semester": "2nd Sem",
+    "enrollment_date": "2026-05-20T16:42:02.922Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-20T16:42:02.922Z",
+    "updated_at": "2026-05-20T16:42:02.922Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 38,
+  "fields": {
+    "student": 21,
+    "subject": 15,
+    "section": 45,
+    "semester": "2nd Sem",
+    "enrollment_date": "2026-05-20T16:42:02.928Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-20T16:42:02.928Z",
+    "updated_at": "2026-05-20T16:42:02.928Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 39,
+  "fields": {
+    "student": 21,
+    "subject": 16,
+    "section": 46,
+    "semester": "2nd Sem",
+    "enrollment_date": "2026-05-20T16:42:02.933Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-20T16:42:02.934Z",
+    "updated_at": "2026-05-20T16:42:02.934Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 40,
+  "fields": {
+    "student": 22,
+    "subject": 78,
+    "section": 29,
+    "semester": "2nd Sem",
+    "enrollment_date": "2026-05-20T16:46:14.396Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-20T16:46:14.396Z",
+    "updated_at": "2026-05-20T16:46:14.396Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 41,
+  "fields": {
+    "student": 22,
+    "subject": 79,
+    "section": 30,
+    "semester": "2nd Sem",
+    "enrollment_date": "2026-05-20T16:46:14.402Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-20T16:46:14.402Z",
+    "updated_at": "2026-05-20T16:46:14.402Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 42,
+  "fields": {
+    "student": 22,
+    "subject": 8,
+    "section": 38,
+    "semester": "2nd Sem",
+    "enrollment_date": "2026-05-20T16:46:14.408Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-20T16:46:14.408Z",
+    "updated_at": "2026-05-20T16:46:14.408Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 43,
+  "fields": {
+    "student": 22,
+    "subject": 9,
+    "section": 39,
+    "semester": "2nd Sem",
+    "enrollment_date": "2026-05-20T16:46:14.414Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-20T16:46:14.414Z",
+    "updated_at": "2026-05-20T16:46:14.414Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 44,
+  "fields": {
+    "student": 22,
+    "subject": 10,
+    "section": 40,
+    "semester": "2nd Sem",
+    "enrollment_date": "2026-05-20T16:46:14.420Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-20T16:46:14.420Z",
+    "updated_at": "2026-05-20T16:46:14.420Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 45,
+  "fields": {
+    "student": 22,
+    "subject": 80,
+    "section": 58,
+    "semester": "2nd Sem",
+    "enrollment_date": "2026-05-20T16:46:14.425Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-20T16:46:14.425Z",
+    "updated_at": "2026-05-20T16:46:14.425Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 46,
+  "fields": {
+    "student": 23,
+    "subject": 17,
+    "section": 47,
+    "semester": "1st Sem",
+    "enrollment_date": "2026-05-21T02:19:14.924Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-21T02:19:14.924Z",
+    "updated_at": "2026-05-21T02:19:14.924Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 47,
+  "fields": {
+    "student": 23,
+    "subject": 18,
+    "section": 48,
+    "semester": "1st Sem",
+    "enrollment_date": "2026-05-21T02:19:14.930Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-21T02:19:14.930Z",
+    "updated_at": "2026-05-21T02:19:14.930Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 48,
+  "fields": {
+    "student": 23,
+    "subject": 19,
+    "section": 49,
+    "semester": "1st Sem",
+    "enrollment_date": "2026-05-21T02:19:14.935Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-21T02:19:14.935Z",
+    "updated_at": "2026-05-21T02:19:14.935Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 49,
+  "fields": {
+    "student": 24,
+    "subject": 67,
+    "section": 23,
+    "semester": "1st Sem",
+    "enrollment_date": "2026-05-21T02:35:23.292Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-21T02:35:23.292Z",
+    "updated_at": "2026-05-21T02:35:23.292Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 50,
+  "fields": {
+    "student": 24,
+    "subject": 68,
+    "section": 24,
+    "semester": "1st Sem",
+    "enrollment_date": "2026-05-21T02:35:23.298Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-21T02:35:23.298Z",
+    "updated_at": "2026-05-21T02:35:23.298Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 51,
+  "fields": {
+    "student": 24,
+    "subject": 1,
+    "section": 31,
+    "semester": "1st Sem",
+    "enrollment_date": "2026-05-21T02:35:23.305Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-21T02:35:23.305Z",
+    "updated_at": "2026-05-21T02:35:23.305Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 52,
+  "fields": {
+    "student": 24,
+    "subject": 2,
+    "section": 32,
+    "semester": "1st Sem",
+    "enrollment_date": "2026-05-21T02:35:23.311Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-21T02:35:23.311Z",
+    "updated_at": "2026-05-21T02:35:23.312Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 53,
+  "fields": {
+    "student": 24,
+    "subject": 70,
+    "section": 53,
+    "semester": "1st Sem",
+    "enrollment_date": "2026-05-21T02:35:23.318Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-21T02:35:23.318Z",
+    "updated_at": "2026-05-21T02:35:23.318Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 54,
+  "fields": {
+    "student": 24,
+    "subject": 69,
+    "section": 55,
+    "semester": "1st Sem",
+    "enrollment_date": "2026-05-21T02:35:23.324Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-21T02:35:23.324Z",
+    "updated_at": "2026-05-21T02:35:23.324Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 61,
+  "fields": {
+    "student": 26,
+    "subject": 67,
+    "section": 23,
+    "semester": "1st Sem",
+    "enrollment_date": "2026-05-22T14:23:28.137Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-22T14:23:28.137Z",
+    "updated_at": "2026-05-22T14:23:28.137Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 62,
+  "fields": {
+    "student": 26,
+    "subject": 68,
+    "section": 24,
+    "semester": "1st Sem",
+    "enrollment_date": "2026-05-22T14:23:28.144Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-22T14:23:28.144Z",
+    "updated_at": "2026-05-22T14:23:28.144Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 63,
+  "fields": {
+    "student": 26,
+    "subject": 1,
+    "section": 31,
+    "semester": "1st Sem",
+    "enrollment_date": "2026-05-22T14:23:28.151Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-22T14:23:28.151Z",
+    "updated_at": "2026-05-22T14:23:28.151Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 64,
+  "fields": {
+    "student": 26,
+    "subject": 2,
+    "section": 32,
+    "semester": "1st Sem",
+    "enrollment_date": "2026-05-22T14:23:28.157Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-22T14:23:28.157Z",
+    "updated_at": "2026-05-22T14:23:28.157Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 65,
+  "fields": {
+    "student": 26,
+    "subject": 70,
+    "section": 53,
+    "semester": "1st Sem",
+    "enrollment_date": "2026-05-22T14:23:28.164Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-22T14:23:28.164Z",
+    "updated_at": "2026-05-22T14:23:28.164Z"
+  }
+},
+{
+  "model": "core.enrollment",
+  "pk": 66,
+  "fields": {
+    "student": 26,
+    "subject": 69,
+    "section": 55,
+    "semester": "1st Sem",
+    "enrollment_date": "2026-05-22T14:23:28.170Z",
+    "status": "ENROLLED",
+    "remarks": "",
+    "created_at": "2026-05-22T14:23:28.171Z",
+    "updated_at": "2026-05-22T14:23:28.171Z"
+  }
+}
+]
