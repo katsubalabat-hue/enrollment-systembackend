@@ -103,8 +103,10 @@ IS_RAILWAY = bool(os.environ.get("RAILWAY_ENVIRONMENT"))
 DATABASE_URL_ENV_KEYS = (
     "DATABASE_URL",
     "DATABASE_PRIVATE_URL",
+    "DATABASE_PUBLIC_URL",
     "POSTGRES_URL",
     "POSTGRES_PRIVATE_URL",
+    "POSTGRES_PUBLIC_URL",
 )
 DATABASE_SOURCE = next(
     (key for key in DATABASE_URL_ENV_KEYS if os.environ.get(key)),
@@ -156,7 +158,7 @@ elif IS_RAILWAY:
         "of these variables to the Django/backend service: "
         "DATABASE_URL=${{ Postgres.DATABASE_URL }} or "
         "DATABASE_PRIVATE_URL=${{ Postgres.DATABASE_PRIVATE_URL }}. "
-        "Split PG* or POSTGRES_* variables are also supported."
+        "DATABASE_PUBLIC_URL and split PG* or POSTGRES_* variables are also supported."
     )
 else:
     DATABASES = {
